@@ -2,6 +2,8 @@
 contract Faucet {
 
     // Give out ether to anyone who asks
+    // definitions - public
+    // public can be called by other contracts
     function withdraw(uint withdraw_amount) public {
 
         // Limit withdrawal amount
